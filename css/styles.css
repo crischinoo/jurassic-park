@@ -1,0 +1,50 @@
+.logotipo {
+    width: 20%;
+}
+.img {
+    width: 50%;
+}
+.background {
+    background: rgb(0,0,0);
+    background: radial-gradient(circle, rgba(0,0,0,1) 47%, rgba(27,1,1,1) 100%);
+}
+.texto {
+    color: #ffff00;
+}
+.texto2{
+    color: #ff0000;
+}
+.texto3 {
+    color: #ffffff;
+}
+.icono {
+    width: 50px;
+}
+@media (min-width: 0px) and (max-width: 575px){
+    .logotipo {
+        width: 50%;
+    }
+    .img {
+        width: 70%;
+    }
+    .mediacolumn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+@media (min-width: 576px) and (max-width: 1430px){
+    .logotipo {
+        width: 35%;
+    }
+    .img {
+        width: 70%;
+    }
+    .mediacolumn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}
